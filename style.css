@@ -110,6 +110,7 @@ header {
 .img {
 	padding-left: 30px;
 	float: left;
+	max-width: 100%;
 }
 
 .text-contents {
