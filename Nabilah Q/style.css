@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6, p, div {
 }
 
 body {
-	min-height: 700px;
+	height: auto;
 	background-color: #ADACEC;
 	background-image: linear-gradient(#ADACEC, #F7D8E0);
 	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'DejaVu Sans', 'sans-serif', "black-ops-one";
@@ -37,7 +37,7 @@ a {
 }
 
 .container {
-  width: 1170px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -60,6 +60,7 @@ header {
 	background-size: cover;
 	padding: 100px 0 200px 0;
 	top: 0;
+	width: 100%;
 }
 
 .heading {
@@ -72,12 +73,17 @@ header {
 	font-size: 28px;
 }
 
+.data-warp {
+	padding: 0px 10px 0px 10px;
+}
+
 .data-icon {
 	position: relative;
 }
 
 .img {
 	float: right;
+	position: relative;
 }
 
 .text {
@@ -95,6 +101,7 @@ header {
 	font-size: 32px;
 	text-align: center;
 	color: #0C1234;
+	position: relative;
 }
 
 .hobby {
@@ -107,9 +114,10 @@ header {
 	width: 80%;
 	display: inline-block;
 	margin-top: 20px;
-	font-size: 16px;
+	font-size: 16px, 24px;
 	text-align: center;
 	font-weight: bold;
+	position: relative;
 }
 
 .aspiration {
@@ -118,6 +126,7 @@ header {
 	font-size: 32px;
 	text-align: center;
 	color: #0C1234;
+	position: relative;
 }
 
 .stories {
@@ -126,5 +135,7 @@ header {
 	font-size: 32px;
 	text-align: center;
 	color: #0C1234;
+	position: relative;
 }
+
 
