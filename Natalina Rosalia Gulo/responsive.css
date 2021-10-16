@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (max-width: 1000px) {
+	.hobby {
+		width: 50%;
+	}
+}
+
+@media (max-width: 670px) {
+	.hobby {
+		width: 100%;
+	}
+	
+	.top-wrapper {
+    text-align: left;
+  }
+}
+
