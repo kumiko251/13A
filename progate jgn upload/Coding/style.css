@@ -1,0 +1,30 @@
+.biodata-icon {
+    position: relative;
+    float: left;
+    padding-bottom: 50px;
+}
+
+.img {
+    float:left;
+}
+
+.text-contects {
+    text-align: justify;
+    width: 80%;
+    float: right;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+a {
+    float: right;
+}
+
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
