@@ -3,8 +3,8 @@
 html, body,
 ul, ol, li,
 h1, h2, h3, h4, h5, h6, p, div {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 body {
@@ -37,8 +37,8 @@ a {
 }
 
 .container {
-  width: 100%;
-  margin: 0 auto;
+	width: 100%;
+	margin: 0 auto;
 }
 
 header {
@@ -153,5 +153,28 @@ a:hover, a:active {
 
 
 
+footer {
+	position: absolute;
+	bottom: 0;
+	background: #111;
+	width: 100%;
+	color: #fff;
+	height: 60px;
+}
+.footer {
+	background: #000;
+	width: 100vw;
+	padding: 20px 0;
+	text-align: center;
+}
+.footer p {
+	font-size: 14px;
+	word-spacing: 2px;
+}
 
 
+.data-container {
+	height: 2700px;
+	min-height: 100%;
+	position: relative;
+}
