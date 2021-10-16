@@ -8,6 +8,7 @@ h1, h2, h3, h4, h5, h6, p, div {
 }
 
 body {
+	padding-right: 10px;
 	box-sizing: border-box;
 	background-color: #EDE5FA;
 	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'DejaVu Sans', 'sans-serif', "black-ops-one";
@@ -30,7 +31,10 @@ a {
 
 
 
-
+.logo {
+	width: 5%;
+	max-width: 10%;
+}
 
 .container {
   width: 100%;
@@ -108,17 +112,19 @@ header {
 
 
 .img {
-	padding-left: 30px;
+	padding-left: 20px;
 	float: left;
-	max-width: 100%;
+	width: 15%;
+	max-width: 400px;
 }
 
 .text-contents {
 	text-align: justify;
-	width: 80%;
+	width: 70%;
 	float: none;
 	display: inline-block;
 	margin-top: 20px;
+	padding-left: 20px;
 }
 
 a {
@@ -139,7 +145,6 @@ a:link, a:visited {
 a:hover, a:active {
   background-color: #8767B1;
 }
-
 
 
 
