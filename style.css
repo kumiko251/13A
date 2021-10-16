@@ -22,8 +22,13 @@ a {
   text-decoration: none;
 }
 
+@viewport {
+	width: device-width;
+	zoom: 1.0;
+}
+
 .container {
-  width: 1170px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -41,11 +46,14 @@ header {
 	float: left;
 }
 
+
+
 .top-wrapper {
 	background-image: url("BG1.png");
 	background-size: cover;
 	padding: 100px 0 200px 0;
 	top: 0;
+	width: 100%;
 }
 
 .top-wrapper h1 {
@@ -122,7 +130,6 @@ a:link, a:visited {
 a:hover, a:active {
   background-color: #8767B1;
 }
-
 
 
 
