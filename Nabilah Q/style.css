@@ -99,13 +99,12 @@ header {
 }
 
 .hobbies {
-	margin-top: 400px;
+	margin-top: 300px;
 	text-decoration: underline;
 	line-height: 20px;
 	font-size: 32px;
 	text-align: center;
 	color: #0C1234;
-	position: relative;
 }
 
 .hobby {
