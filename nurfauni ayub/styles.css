@@ -98,8 +98,12 @@ header {
 	position: absolute;
 }
 
+p {
+	font-size: 20px;
+}
+
 .hobbies {
-	margin-top: 500px;
+	margin-top: 650px;
 	text-decoration: underline;
 	line-height: 20px;
 	font-size: 32px;
@@ -143,3 +147,28 @@ header {
 	color: #0C1234;
 	position: relative;
 }
+
+footer {
+	position: absolute;
+	bottom: 0;
+	background: #111;
+	width: 100%;
+	color: #fff;
+	height: 60px;
+}
+.footer {
+	background: #000;
+	width: 100vw;
+	padding: 20px 0;
+	text-align: center;
+}
+.footer p {
+	font-size: 14px;
+	word-spacing: 2px;
+}
+
+
+.data-container {
+	height: 2500px;
+	min-height: 100%;
+	position: relative;
