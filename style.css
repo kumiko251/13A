@@ -1,0 +1,187 @@
+@charset "utf-8";
+/* CSS Document */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding-right: 10px;
+	box-sizing: border-box;
+	background-color: #EDE5FA;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'DejaVu Sans', 'sans-serif', "black-ops-one";
+}
+
+
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@viewport {
+	width: device-width;
+	zoom: 1.0;
+}
+
+
+
+.logo {
+	width: 5%;
+	max-width: 10%;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+header {
+	height: 65px;
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+	opacity: 0.85;
+	top: 0;
+
+}
+
+.header-logo {
+	float: left;
+}
+
+
+
+.top-wrapper {
+	background-image: url("BG1.png");
+	background-size: cover;
+	padding: 100px 0 200px 0;
+	top: 0;
+	width: 100%;
+}
+
+.top-wrapper h1 {
+	font-size: 45px;
+	letter-spacing: 5px;
+	margin-bottom: 10px;
+	color: #0E083A;
+	text-align: center;
+	font-family: "black-ops-one";
+	font-weight: bolder;
+}
+
+.top-wrapper p {
+	font-size: 16px;
+	letter-spacing: normal;
+	color: #2E325E;
+	text-align: center;
+	font-weight: bolder;
+}
+
+
+.biodata-wrap {
+	height: auto;
+	padding-bottom: 80px;
+	text-align: center;
+}
+
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+	font-weight: bold;
+	color: #19835D;
+	font-size: 32px;
+	
+}
+
+
+
+.biodata-icon {
+	position:relative;
+	float: left;
+	padding-bottom: 50px;
+}
+
+
+.img {
+	padding-left: 20px;
+	float: left;
+}
+
+img {
+	width: 15%;
+	max-width: 600px;
+	height: auto;
+}
+
+.text-contents {
+	text-align: justify;
+	width: 70%;
+	float: none;
+	display: inline-block;
+	margin-top: 20px;
+	padding-left: 20px;
+}
+
+a {
+	margin-top: 20px;
+	float: right;
+}
+a:link, a:visited {
+	background-color: #6FB2D2;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	position: relative;
+	float: right;
+}
+
+a:hover, a:active {
+  background-color: #8767B1;
+}
+
+
+
+
+footer {
+	position: absolute;
+	bottom: 0;
+	background: #111;
+	width: 100%;
+	color: #fff;
+	height: 60px;
+}
+.footer {
+	background: #50A385;
+	width: 100vw;
+	padding: 20px 0;
+	text-align: center;
+}
+.footer p {
+	font-size: 14px;
+	word-spacing: 2px;
+	color: #F2EAB2;
+}
+
+
+.data-container {
+	height: 2700px;
+	min-height: 100%;
+	position: relative;
+}
+
+p {
+	color: #1D3F42;
+}
