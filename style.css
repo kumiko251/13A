@@ -1,16 +1,18 @@
 @charset "utf-8";
 /* CSS Document */
+/* CSS Untuk HALAMAN NATALINA*/
+
 html, body,
 ul, ol, li,
 h1, h2, h3, h4, h5, h6, p, div {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-	padding-right: 10px;
-	box-sizing: border-box;
-	background-color: #EDE5FA;
+	height: auto;
+	background-color: #ADACEC;
+	background-image: linear-gradient(#ADACEC, #F7D8E0);
 	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'DejaVu Sans', 'sans-serif', "black-ops-one";
 }
 
@@ -29,16 +31,14 @@ a {
 	zoom: 1.0;
 }
 
-
-
 .logo {
 	width: 5%;
 	max-width: 10%;
 }
 
 .container {
-	width: 100%;
-	margin: 0 auto;
+  width: 100%;
+  margin: 0 auto;
 }
 
 header {
@@ -46,7 +46,7 @@ header {
 	width: 100%;
 	position: fixed;
 	z-index: 10;
-	opacity: 0.85;
+	opacity: 0.95;
 	top: 0;
 
 }
@@ -54,8 +54,6 @@ header {
 .header-logo {
 	float: left;
 }
-
-
 
 .top-wrapper {
 	background-image: url("BG1.png");
@@ -65,104 +63,103 @@ header {
 	width: 100%;
 }
 
-.top-wrapper h1 {
-	font-size: 45px;
-	letter-spacing: 5px;
-	margin-bottom: 10px;
-	color: #0E083A;
-	text-align: center;
-	font-family: "black-ops-one";
-	font-weight: bolder;
-}
-
-.top-wrapper p {
-	font-size: 16px;
-	letter-spacing: normal;
-	color: #2E325E;
-	text-align: center;
-	font-weight: bolder;
-}
-
-
-.biodata-wrap {
-	height: auto;
-	padding-bottom: 80px;
-	text-align: center;
-}
-
 .heading {
-  padding-top: 60px;
-  padding-bottom: 30px;
-  color: #5f5d60;
-}
-
-.heading h2 {
+	padding-top: 50px;
+	padding-right: 20px;
+	padding-bottom: 40px;
+	color: #7F0989;
 	font-weight: bold;
-	color: #48337E;
-	
+	text-align: center;
+	font-size: 28px;
 }
 
-
-
-.biodata-icon {
-	position:relative;
-	float: left;
-	padding-bottom: 50px;
+.data-warp {
+	padding: 0px 20px 0px 20px;
 }
 
+.data-icon {
+	position: relative;
+}
 
 .img {
-	padding-left: 20px;
-	float: left;
-}
-
-img {
-	width: 15%;
+	float: right;
+	width: 20%;
 	max-width: 600px;
 	height: auto;
+	position: relative;
 }
 
-.text-contents {
+
+.text {
 	text-align: justify;
 	width: 70%;
-	float: none;
-	display: inline-block;
-	margin-top: 20px;
-	padding-left: 20px;
+	float: left;
+	margin-left: 50px;
+	margin-top: 25px;
+	display: inline;
+	position: absolute;
 }
 
-a {
-	margin-top: 20px;
-	float: right;
+p {
+	font-size: 20px;
 }
-a:link, a:visited {
-	background-color: #5EABD1;
-	color: white;
-	padding: 14px 25px;
+
+.hobbies {
+	margin-top: 500px;
+	text-decoration: underline;
+	line-height: 20px;
+	font-size: 32px;
 	text-align: center;
-	text-decoration: none;
-	display: inline-block;
+	color: #6F2878;
+}
+
+.hobby {
+	float: left;
+	width: 25%;
+}
+
+.hobby-icon {
 	position: relative;
-	float: right;
+	padding-left: 15%
 }
 
-a:hover, a:active {
-  background-color: #8767B1;
+.txt-content {
+	width: 80%;
+	display: inline-block;
+	margin-top: 20px;
+	font-size: 16px, 24px;
+	text-align: center;
+	font-weight: bold;
+	color: #19835D;
 }
 
+.aspiration {
+	margin-top: 300px;
+	text-decoration: underline;
+	font-size: 32px;
+	text-align: center;
+	color: #6B2C81;
+	position: relative;
+}
 
+.stories {
+	margin-top: 50px;
+	text-decoration: underline;
+	font-size: 32px;
+	text-align: center;
+	color: #512B89;
+	position: relative;
+}
 
 
 footer {
 	position: absolute;
 	bottom: 0;
-	background: #111;
 	width: 100%;
-	color: #fff;
 	height: 60px;
 }
 .footer {
-	background: #000;
+	background: #50A385;
 	width: 100vw;
 	padding: 20px 0;
 	text-align: center;
@@ -170,11 +167,12 @@ footer {
 .footer p {
 	font-size: 14px;
 	word-spacing: 2px;
+	color: #F2EAB2;
 }
 
 
 .data-container {
-	height: 2700px;
+	height: 2500px;
 	min-height: 100%;
 	position: relative;
 }
