@@ -83,6 +83,10 @@ header {
 	font-weight: bolder;
 }
 
+p {
+	color: #1D3F42;
+}
+
 
 .biodata-wrap {
 	height: auto;
@@ -158,9 +162,7 @@ a:hover, a:active {
 footer {
 	position: absolute;
 	bottom: 0;
-	background: #111;
 	width: 100%;
-	color: #fff;
 	height: 60px;
 }
 .footer {
@@ -182,6 +184,4 @@ footer {
 	position: relative;
 }
 
-p {
-	color: #1D3F42;
-}
+
