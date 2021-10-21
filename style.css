@@ -1,18 +1,16 @@
 @charset "utf-8";
 /* CSS Document */
-/* CSS Untuk HALAMAN NATALINA*/
-
 html, body,
 ul, ol, li,
 h1, h2, h3, h4, h5, h6, p, div {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 body {
-	height: auto;
-	background-color: #ADACEC;
-	background-image: linear-gradient(#ADACEC, #F7D8E0);
+	padding-right: 10px;
+	box-sizing: border-box;
+	background-color: #EDE5FA;
 	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'DejaVu Sans', 'sans-serif', "black-ops-one";
 }
 
@@ -31,14 +29,16 @@ a {
 	zoom: 1.0;
 }
 
+
+
 .logo {
 	width: 5%;
 	max-width: 10%;
 }
 
 .container {
-  width: 100%;
-  margin: 0 auto;
+	width: 100%;
+	margin: 0 auto;
 }
 
 header {
@@ -46,7 +46,7 @@ header {
 	width: 100%;
 	position: fixed;
 	z-index: 10;
-	opacity: 0.95;
+	opacity: 0.85;
 	top: 0;
 
 }
@@ -54,6 +54,8 @@ header {
 .header-logo {
 	float: left;
 }
+
+
 
 .top-wrapper {
 	background-image: url("BG1.png");
@@ -63,99 +65,102 @@ header {
 	width: 100%;
 }
 
-.heading {
-	padding-top: 50px;
-	padding-right: 20px;
-	padding-bottom: 40px;
-	color: #7F0989;
-	font-weight: bold;
+.top-wrapper h1 {
+	font-size: 45px;
+	letter-spacing: 5px;
+	margin-bottom: 10px;
+	color: #0E083A;
 	text-align: center;
-	font-size: 28px;
+	font-family: "black-ops-one";
+	font-weight: bolder;
 }
 
-.data-warp {
-	padding: 0px 20px 0px 20px;
+.top-wrapper p {
+	font-size: 16px;
+	letter-spacing: normal;
+	color: #2E325E;
+	text-align: center;
+	font-weight: bolder;
 }
 
-.data-icon {
-	position: relative;
-}
 
-.img {
-	float: right;
-	width: 20%;
-	max-width: 600px;
+.biodata-wrap {
 	height: auto;
-	position: relative;
-}
-
-
-.text {
-	text-align: justify;
-	width: 70%;
-	float: left;
-	margin-left: 50px;
-	margin-top: 25px;
-	display: inline;
-	position: absolute;
-}
-
-p {
-	font-size: 20px;
-}
-
-.hobbies {
-	margin-top: 500px;
-	text-decoration: underline;
-	line-height: 20px;
-	font-size: 32px;
+	padding-bottom: 80px;
 	text-align: center;
-	color: #6F2878;
 }
 
-.hobby {
-	float: left;
-	width: 25%;
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
 }
 
-.hobby-icon {
-	position: relative;
-	padding-left: 15%
-}
-
-.txt-content {
-	width: 80%;
-	display: inline-block;
-	margin-top: 20px;
-	font-size: 16px, 24px;
-	text-align: center;
+.heading h2 {
 	font-weight: bold;
 	color: #19835D;
+	font-size: 32px;
+	
 }
 
-.aspiration {
-	margin-top: 300px;
-	text-decoration: underline;
-	font-size: 32px;
-	text-align: center;
-	color: #6B2C81;
-	position: relative;
+
+
+.biodata-icon {
+	position:relative;
+	float: left;
+	padding-bottom: 50px;
 }
 
-.stories {
-	margin-top: 50px;
-	text-decoration: underline;
-	font-size: 32px;
-	text-align: center;
-	color: #512B89;
-	position: relative;
+
+.img {
+	padding-left: 20px;
+	float: left;
 }
+
+img {
+	width: 15%;
+	max-width: 600px;
+	height: auto;
+}
+
+.text-contents {
+	text-align: justify;
+	width: 70%;
+	float: none;
+	display: inline-block;
+	margin-top: 20px;
+	padding-left: 20px;
+}
+
+a {
+	margin-top: 20px;
+	float: right;
+}
+a:link, a:visited {
+	background-color: #6FB2D2;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	position: relative;
+	float: right;
+}
+
+a:hover, a:active {
+  background-color: #8767B1;
+}
+
+
 
 
 footer {
 	position: absolute;
 	bottom: 0;
+	background: #111;
 	width: 100%;
+	color: #fff;
 	height: 60px;
 }
 .footer {
@@ -172,7 +177,11 @@ footer {
 
 
 .data-container {
-	height: 2500px;
+	height: 2700px;
 	min-height: 100%;
 	position: relative;
+}
+
+p {
+	color: #1D3F42;
 }
