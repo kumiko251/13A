@@ -65,7 +65,7 @@ header {
 	padding-top: 50px;
 	padding-right: 20px;
 	padding-bottom: 40px;
-	color: #890963;
+	color: #7F0989;
 	font-weight: bold;
 	text-align: center;
 	font-size: 28px;
@@ -100,6 +100,7 @@ header {
 
 p {
 	font-size: 20px;
+	color: #1D3F42;
 }
 
 .hobbies {
@@ -108,7 +109,7 @@ p {
 	line-height: 20px;
 	font-size: 32px;
 	text-align: center;
-	color: #0C1234;
+	color: #6F2878;
 }
 
 .hobby {
@@ -119,6 +120,7 @@ p {
 
 .hobby-icon {
 	position: relative;
+	padding-left: 15%;
 }
 
 .txt-content {
@@ -128,6 +130,7 @@ p {
 	font-size: 16px, 24px;
 	text-align: center;
 	font-weight: bold;
+	color: #19835D;
 }
 
 .aspiration {
@@ -135,7 +138,7 @@ p {
 	text-decoration: underline;
 	font-size: 32px;
 	text-align: center;
-	color: #0C1234;
+	color: #6B2C81;
 	position: relative;
 }
 
@@ -144,20 +147,18 @@ p {
 	text-decoration: underline;
 	font-size: 32px;
 	text-align: center;
-	color: #0C1234;
+	color: #512B89;
 	position: relative;
 }
 
 footer {
 	position: absolute;
 	bottom: 0;
-	background: #111;
 	width: 100%;
-	color: #fff;
 	height: 60px;
 }
 .footer {
-	background: #000;
+	background: #50A385;
 	width: 100vw;
 	padding: 20px 0;
 	text-align: center;
@@ -165,6 +166,7 @@ footer {
 .footer p {
 	font-size: 14px;
 	word-spacing: 2px;
+	color: #F2EAB2;
 }
 
 
@@ -172,3 +174,4 @@ footer {
 	height: 2500px;
 	min-height: 100%;
 	position: relative;
+}
