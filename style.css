@@ -29,6 +29,35 @@ a {
 	zoom: 1.0;
 }
 
+.op {
+  	position: relative;
+  	animation-name: example;
+  	animation-duration: 7s;
+  	animation-delay: -4s;
+}
+
+@keyframes example {
+  0%   {  bottom:700px;}
+  25%  {  bottom:500px;}
+  50%  {  bottom:300px;}
+  75%  {  bottom:200px;}
+  100% {  bottom:0px;}
+}
+
+.in {
+	position: relative;
+  	animation-name: in;
+  	animation-duration: 7s;
+  	animation-delay: -4s;
+}
+
+@keyframes in {
+  0%   {  opacity: 0; top:700px;}
+  25%  {  opacity: 0; top:500px;}
+  50%  {  opacity: .25; top:300px;}
+  75%  {  opacity: .5; top:200px;}
+  100% {  opacity: 1; top:0px;}
+}
 
 
 .logo {
@@ -48,7 +77,6 @@ header {
 	z-index: 10;
 	opacity: 0.85;
 	top: 0;
-
 }
 
 .header-logo {
@@ -96,16 +124,26 @@ p {
 
 
 .heading {
-  padding-top: 60px;
-  padding-bottom: 30px;
-  color: #5f5d60;
+	padding-top: 60px; 
+	padding-bottom: 30px;
+	color: #5f5d60;
 }
 
 .heading h2 {
 	font-weight: bold;
 	color: #19835D;
 	font-size: 32px;
-	
+	position: relative;
+  	animation-name: h2;
+  	animation-duration: 7s;
+}
+
+@keyframes h2 {
+  0%   {  opacity: 0;}
+  25%  {  opacity: 0.25}
+  50%  {  opacity: 0.5}
+  75%  {  opacity: 0;}
+  100% {  opacity: 1;}
 }
 
 
@@ -122,6 +160,7 @@ p {
 	float: left;
 }
 
+
 img {
 	width: 15%;
 	max-width: 600px;
@@ -136,26 +175,6 @@ img {
 	margin-top: 20px;
 	padding-left: 20px;
 }
-
-a {
-	margin-top: 20px;
-	float: right;
-}
-a:link, a:visited {
-	background-color: #6FB2D2;
-	color: white;
-	padding: 14px 25px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	position: relative;
-	float: right;
-}
-
-a:hover, a:active {
-  background-color: #8767B1;
-}
-
 
 
 
@@ -182,6 +201,25 @@ footer {
 	height: 2700px;
 	min-height: 100%;
 	position: relative;
+}
+
+a {
+	margin-top: 20px;
+	float: right;
+}
+a:link, a:visited {
+	background-color: #6FB2D2;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	position: relative;
+	float: right;
+}
+
+a:hover, a:active {
+  background-color: #8767B1;
 }
 
 
